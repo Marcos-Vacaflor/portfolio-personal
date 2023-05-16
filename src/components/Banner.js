@@ -74,9 +74,9 @@ export const Banner = () => {
                     especialmente en áreas como electrónica, mecánica, maquinas
                     industriales y computadoras. Además de mi formación técnica,
                     tengo un perfil autodidacta y considero distintas vías de
-                    aprendizaje para mi capacitación. Este último año he
+                    aprendizaje para mi capacitación. Estos últimos años he
                     decidido incursionar en programación, aprendiendo
-                    tecnologías como HTML, CSS y JavaScript. Actualmente, sigo
+                    tecnologías como HTML, CSS, JavaScript y React. Actualmente, sigo
                     capacitándome para encontrar lugares en los que pueda
                     fortalecer mis conocimientos al mismo tiempo que pueda
                     ofrecer un servicio de buena calidad."
