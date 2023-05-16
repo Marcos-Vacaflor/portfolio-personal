@@ -1,9 +1,10 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg1 from "../assets/img/Reproductor2.PNG";
+import projImg2 from "../assets/img/movie-trailer.PNG";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import reproDoc from "../assets/reproductor de música .docx";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -13,21 +14,25 @@ export const Projects = () => {
       title: "Reproductor de Musica",
       description: " Vanilla JS",
       imgUrl: projImg1,
+      pageLink:"https://glowing-frangollo-d71cbc.netlify.app/",
+      doc:reproDoc
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Traiflix",
+      description: "React.js",
       imgUrl: projImg2,
+      pageLink:"https://645b0f73c3f381697aa4a3fb--brilliant-crostata-d2bed1.netlify.app/"
+      
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Proyecto",
+      description: "Muy pronto...",
       imgUrl: projImg3,
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -40,7 +45,7 @@ export const Projects = () => {
                 >
                   <h2>Projectos</h2>
                   <p>
-                    En esta sección va a poder revisar versiones betas de mis
+                    En esta sección podrá revisar versiones beta de mis
                     proyectos.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -57,24 +62,7 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane>
+                      
                     </Tab.Content>
                   </Tab.Container>
                 </div>

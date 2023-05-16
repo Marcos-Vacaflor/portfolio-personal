@@ -4,20 +4,18 @@ import logo3 from "../assets/img/JavaScript_logo.svg";
 import logo4 from "../assets/img/React_logo.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
-import { useState } from "react";
+
 import TrackVisibility from "react-on-screen";
 
 export const Skills = () => {
-const [modalWindow ,setModalWindow]= useState("")
+
 
 
 
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
+      
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -64,19 +62,19 @@ const [modalWindow ,setModalWindow]= useState("")
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div  className="item">
-                  <img onClick={(e)=>{setModalWindow(e.target.id);console.log(e.target.id)}} id="item1"src={logo1} alt="HTML" />
+                  <img  id="item1"src={logo1} alt="HTML" />
                   <h5>HTML</h5>
                 </div>
                 <div  className="item">
-                  <img  onClick={(e)=>{setModalWindow(e.target.id);console.log(e.target.id)}} id="item2"style={{width:"38%", position:"relative",top:-5}}src={logo2} alt="CSS" />
+                  <img   id="item2"style={{width:"38%", position:"relative",top:-5}}src={logo2} alt="CSS" />
                   <h5 style={{position:"relative",top:-9}} >CSS</h5>
                 </div>
                 <div className="item">
-                  <img onClick={(e)=>{setModalWindow(e.target.id);console.log(e.target.id)}} id="item3"src={logo3} alt="JavaScript" />
+                  <img  id="item3"src={logo3} alt="JavaScript" />
                   <h5>JavaScript</h5>
                 </div>
                 <div  className="item">
-                  <img onClick={(e)=>{setModalWindow(e.target.id);console.log(e.target.id)}} id="item4" src={logo4} alt="React" />
+                  <img  id="item4" src={logo4} alt="React" />
                   <h5 style={{position:"relative",top:15}}>React</h5>
                 </div>
               </Carousel></div>}
