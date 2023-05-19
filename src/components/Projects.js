@@ -21,7 +21,7 @@ export const Projects = () => {
       title: "Traiflix",
       description: "React.js",
       imgUrl: projImg2,
-      pageLink:"https://645b0f73c3f381697aa4a3fb--brilliant-crostata-d2bed1.netlify.app/"
+      pageLink:"https://velvety-lollipop-341186.netlify.app/"
       
     },
     {
