@@ -2,7 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo_personal.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/cv-icon.svg";
+import cv from "../assets/Marcos Vacaflor CV.pdf";
 
 export const Footer = () => {
   return (
@@ -21,9 +22,10 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/marcos-vacaflor/" target="blanch">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://www.instagram.com/marcosgabrielvacaflor/" target="blanch">
+                <a href={cv} download={"Marcos Gabriel Vacaflor CV"} target="blanch">
                   <img src={navIcon3} alt="" />
                 </a>
+                
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
           </Col>

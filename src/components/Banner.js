@@ -69,7 +69,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    "Hola, mi nombre es Marcos y soy un Desarrollador Frontend.
+                    Hola, mi nombre es Marcos y soy un Desarrollador Frontend.
                     Siempre estuve muy relacionado al mundo de la tecnología,
                     especialmente en áreas como electrónica, mecánica, maquinas
                     industriales y computadoras. Además de mi formación técnica,
@@ -79,7 +79,7 @@ export const Banner = () => {
                     tecnologías como HTML, CSS, JavaScript y React. Actualmente, sigo
                     capacitándome para encontrar lugares en los que pueda
                     fortalecer mis conocimientos al mismo tiempo que pueda
-                    ofrecer un servicio de buena calidad."
+                    ofrecer un servicio de buena calidad.
                   </p>
                 </div>
               )}

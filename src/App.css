@@ -298,164 +298,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-
-
-
-@media (max-width: 768px)  {
-  .banner .tagline {
-  visibility: hidden;
-  }
-  .banner h1 {
-  
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1;
-    margin-bottom: 20px;
-    display: block;
-  }
-  .banner p {
-  
-    color: #b8b8b8;
-    font-size: 16px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    width: 400px;
-  }
-  .banner img {
-    height: 190px;
-    width: 190px;
-    position: relative;
-    left: 5px;
-    top: 5px;
-    border-radius: 95px;
-  }
-  .banner #div-header  {
-    position: absolute;
-    top: 15%;
-    left: 30%;
-    height: 200px;
-    width: 200px;
-    
-    z-index: 0;
-    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
-    border-radius: 100px;
-  }}
-
-  @media (min-width:768px) and ( max-width: 1100px) {
-    .navbar-text button {
-      width: 85px;
-      height: 35px;
-      font-weight: 700;
-      color: #fff;
-      border: 1px solid #fff;
-      padding: 1px 3px;
-      font-size: 18px;
-      margin-left: 10px;
-      position: relative;
-      background-color: transparent;
-      transition: 0.3s ease-in-out;
-    }
-    .navbar-text button span {
-      z-index: 1;
-      font-size: 13px;
-    }
-    .banner p {
-      margin-top: 110px;
-    
-      color: #b8b8b8;
-      font-size: 18px;
-      letter-spacing: 0.8px;
-      line-height: 1.5em;
-      width: 700px;
-    }
-  
-  .banner img {
-    position: relative;
-    height: 98%;
-    width: auto;
-    transform:  rotate(-4deg);
-    top: 1%;
-    left: 1%;
-    border-top-left-radius: 120px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  
-  .banner #div-header {
-    position: absolute;
-    left: 55%;
-    top: 40%;
-    height: 310px;
-    width: 290px;
-    transform:  rotate(2deg);
-    z-index: 0;
-    background-image: linear-gradient( to right, #4a2fbd,#4935a5,#493992,#544692,#6639af,#712fbd,#7d3ea7);
-    border-top-left-radius: 120px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .banner #div-header #div2-header {
-    position: relative;
-    top: 2%;
-    
-    height: 300px;
-    width: 290px;
-    transform:  rotate(2deg);
-    z-index: 0;
-    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
-    border-top-left-radius: 220px;
-    border-bottom-right-radius: 220px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }}
-  
-  @media (min-width:1100px) and ( max-width: 4000px) {
-    .banner p {
-    
-      color: #b8b8b8;
-      font-size: 18px;
-      letter-spacing: 0.8px;
-      line-height: 1.5em;
-      width: 96%;
-    }
-  
-  .banner img {
-    position: relative;
-    transform:  rotate(-4deg);
-    top: 2%;
-    border-top-left-radius: 220px;
-    border-bottom-right-radius: 220px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  
-  .banner #div-header {
-    height: 510px;
-    transform:  rotate(2deg);
-    z-index: 0;
-    background-image: linear-gradient( to right, #4a2fbd,#4935a5,#493992,#544692,#6639af,#712fbd,#7d3ea7);
-    border-top-left-radius: 220px;
-    border-bottom-right-radius: 220px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .banner #div-header #div2-header {
-    position: relative;
-    top: 2%;
-    height: 500px;
-    transform:  rotate(2deg);
-    z-index: 0;
-    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
-    border-top-left-radius: 220px;
-    border-bottom-right-radius: 220px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }}
   
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
@@ -477,14 +319,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 5%;
 }
-.skill p {
-  color: #b8b8b8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px 0 75px 0;
-}
+
 .skill-slider {
   width: 80%;
   margin: 0 auto;
@@ -494,6 +331,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
+}
+.skill-slider .item #item3 {
+  width: 56%;
+}
+.skill-slider .item #item4 {
+  width: 63%;
+}
+.skill-slider .item #item5 {
+  width: 71%;
+}
+.skill-slider .item #item6 {
+  width: 57%;
+}
+.skill-slider .item #item7 {
+  width: 58%;
+}
+.skill-slider .item #item8 {
+  width: 58%;
+}
+.skill-slider .item #item9 {
+  width: 58%;
+}
+.skill-slider .item #item10 {
+  width: 58%;
+}
+.skill-slider .item #item11 {
+  width: 35%;
 }
 .background-image-left {
   background-color: #000;
@@ -570,6 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  color: #fff;
 }
 .proj-icons {
   position: relative;
@@ -594,9 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   padding: 60px 0 200px 0;
 }
-.contact img {
-  width: 92%;
-}
+
 .contact h2 {
   font-size: 45px;
   font-weight: 700;
@@ -730,3 +593,284 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/************ Responsive ************/
+@media (max-width: 419px)  {
+  .banner .tagline {
+  visibility: hidden;
+  }
+  .banner h1 {
+  
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    display: block;
+  }
+  .banner p {
+    padding-left: 25px;  
+    padding-right: 20px;  
+    color: #ebebeb;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 350px;
+  }
+  .banner img {
+    height: 190px;
+    width: 190px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border-radius: 95px;
+  }
+  .banner #div-header  {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 200px;
+    width: 200px;
+    z-index: 0;
+    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
+    border-radius: 100px;
+  }
+  .skill-bx {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: -60px;
+    border-radius: 40px;
+    width: 300px;
+    padding: 30px 20px;
+  }
+  .skill h2{
+    font-size: 25px;
+  }
+ 
+  .proj-imgbx{
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 40px;
+    width: 300px;
+  }
+  .project h2{
+    font-size: 25px;
+  }
+
+  .contact {
+    background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+    padding: 60px 0 200px 0;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 20px 8px 20px;
+    padding: 18px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  .contact form button {
+    margin-left: 20px;
+  }
+
+  .footer {
+    padding: 0 0 50px 0;
+   width: 100%;
+   
+}}
+  
+
+@media (min-width: 420px) and (max-width: 768px)  {
+  .banner .tagline {
+  visibility: hidden;
+  }
+  .banner h1 {
+  
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+  
+    color: #b8b8b8;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 400px;
+  }
+  .banner img {
+    height: 190px;
+    width: 190px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border-radius: 95px;
+  }
+  .banner #div-header  {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    height: 200px;
+    width: 200px;
+    
+    z-index: 0;
+    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
+    border-radius: 100px;
+  }
+  .footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+  }
+  .social-icon{
+    margin-top: 20px;
+  }
+}
+
+  @media (min-width:768px) and ( max-width: 1100px) {
+    .navbar-text button {
+      width: 85px;
+      height: 35px;
+      font-weight: 700;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 1px 3px;
+      font-size: 18px;
+      margin-left: 5px;
+      position: relative;
+      background-color: transparent;
+      transition: 0.3s ease-in-out;
+    }
+    .navbar-text button span {
+      z-index: 1;
+      font-size: 13px;
+    }
+    .banner p {
+      margin-top: 110px;
+    
+      color: #b8b8b8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      width: 700px;
+    }
+  
+  .banner img {
+    position: relative;
+    height: 98%;
+    width: auto;
+    transform:  rotate(-4deg);
+    top: 1%;
+    left: 1%;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  .banner #div-header {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    height: 310px;
+    width: 290px;
+    transform:  rotate(2deg);
+    z-index: 0;
+    background-image: linear-gradient( to right, #4a2fbd,#4935a5,#493992,#544692,#6639af,#712fbd,#7d3ea7);
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .banner #div-header #div2-header {
+    position: relative;
+    top: 2%;
+    
+    height: 300px;
+    width: 290px;
+    transform:  rotate(2deg);
+    z-index: 0;
+    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
+    border-top-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+   }
+   .footer .social-icon{
+     margin-top: 20px;
+   }
+   .navbar-text .social-icon{
+     margin-left: 0px;
+     width: fit-content;
+   }
+}
+  
+  @media (min-width:1100px) and ( max-width: 4000px) {
+    .banner p {
+    
+      color: #b8b8b8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      width: 96%;
+    }
+  
+  .banner img {
+    position: relative;
+    transform:  rotate(-4deg);
+    top: 2%;
+    border-top-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  .banner #div-header {
+    height: 510px;
+    transform:  rotate(2deg);
+    z-index: 0;
+    background-image: linear-gradient( to right, #4a2fbd,#4935a5,#493992,#544692,#6639af,#712fbd,#7d3ea7);
+    border-top-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .banner #div-header #div2-header {
+    position: relative;
+    top: 2%;
+    height: 500px;
+    transform:  rotate(2deg);
+    z-index: 0;
+    background-image: linear-gradient( to right,#7d3ea7,#712fbd,#6639af, #6639af,#4a2fbd,#544692,#493992);
+    border-top-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }}

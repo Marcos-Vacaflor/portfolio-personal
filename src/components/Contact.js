@@ -7,13 +7,13 @@ import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
   const form = useRef();
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Enviar');
   const [status, setStatus] = useState({});
 
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setButtonText("Sending...");
+    setButtonText("Enviando...");
     emailjs
       .sendForm(
         "service_9ty41pj",
@@ -24,14 +24,14 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setStatus({ succes: true, message: 'Message sent successfully'});
+          setStatus({ succes: true, message: 'Mensaje enviado'});
          
           setButtonText("Send");
         },
         (error) => {
           console.log(error.text);
           
-          setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
+          setStatus({ succes: false, message: 'Ocurrio un problema, por favor intente más tarde.'});
           
         }
       );
@@ -62,19 +62,19 @@ export const Contact = () => {
                 <form ref={form} onSubmit={(e)=>{sendEmail(e);}}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" name="user_firstname"  placeholder="First Name"  />
+                      <input type="text" name="user_firstname"  placeholder="Nombre"  />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" name="user_lasttname" placeholder="Last Name" />
+                      <input type="text" name="user_lasttname" placeholder="Apellido" />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" name="user_email" placeholder="Email Address"  />
+                      <input type="email" name="user_email" placeholder="Email"  />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" name="user_number" placeholder="Phone No." />
+                      <input type="tel" name="user_number" placeholder="Telefono" />
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea name="texttarea" rows="6"  placeholder="Message" ></textarea>
+                      <textarea name="texttarea" rows="6"  placeholder="Mensaje" ></textarea>
                       <button name="" type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {

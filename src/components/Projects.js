@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/Reproductor2.PNG";
 import projImg2 from "../assets/img/movie-trailer.PNG";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import reproDoc from "../assets/reproductor de música .docx";
+import reproDoc from "../assets/Reproductor de música.pdf";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -14,18 +14,18 @@ export const Projects = () => {
       title: "Reproductor de Musica",
       description: " Vanilla JS",
       imgUrl: projImg1,
-      pageLink:"https://glowing-frangollo-d71cbc.netlify.app/",
+      pageLink:"https://repromusic.netlify.app/",
       doc:reproDoc
     },
     {
       title: "Traiflix",
       description: "React.js",
       imgUrl: projImg2,
-      pageLink:"https://645b0f73c3f381697aa4a3fb--brilliant-crostata-d2bed1.netlify.app/"
+      pageLink:"https://traiflix.netlify.app/"
       
     },
     {
-      title: "Proyecto",
+      title: "Nuevo proyecto",
       description: "Muy pronto...",
       imgUrl: projImg3,
     },
@@ -44,10 +44,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projectos</h2>
-                  <p>
-                    En esta sección podrá revisar versiones beta de mis
-                    proyectos.
-                  </p>
+                  
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content
                       id="slideInUp"
