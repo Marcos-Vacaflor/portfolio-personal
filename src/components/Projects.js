@@ -22,7 +22,6 @@ export const Projects = () => {
       description: "React.js",
       imgUrl: projImg2,
       pageLink:"https://traiflix.netlify.app/"
-      
     },
     {
       title: "Nuevo proyecto",
