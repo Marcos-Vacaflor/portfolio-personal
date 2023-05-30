@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.3e6ed047.css",
-    "main.js": "/static/js/main.abaedb77.js",
+    "main.js": "/static/js/main.970dd03d.js",
     "static/media/header-img.png": "/static/media/header-img.62f5038554291d4a1702.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/Marcos Vacaflor CV.pdf": "/static/media/Marcos Vacaflor CV.102210343649d68cff8f.pdf",
+    "static/media/Marcos Vacaflor CV.pdf": "/static/media/Marcos Vacaflor CV.fb54a672f747c02b31df.pdf",
     "static/media/Reproductor de música.pdf": "/static/media/Reproductor de música.bc9830f28218d939a528.pdf",
     "static/media/libraries_logo.png": "/static/media/libraries_logo.37619388e8796db24643.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.75d295f9029f3a739c33.png",
@@ -35,10 +35,10 @@
     "static/media/React_logo.svg": "/static/media/React_logo.928f956d9c8ebcffb98a8e917154a81a.svg",
     "static/media/cv-icon.svg": "/static/media/cv-icon.e0ed87d3c4db63f1ebf8ea0283b441ab.svg",
     "main.3e6ed047.css.map": "/static/css/main.3e6ed047.css.map",
-    "main.abaedb77.js.map": "/static/js/main.abaedb77.js.map"
+    "main.970dd03d.js.map": "/static/js/main.970dd03d.js.map"
   },
   "entrypoints": [
     "static/css/main.3e6ed047.css",
-    "static/js/main.abaedb77.js"
+    "static/js/main.970dd03d.js"
   ]
 }
