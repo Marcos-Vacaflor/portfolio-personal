@@ -19,7 +19,7 @@ export const Footer = () => {
             <a href="https://www.linkedin.com/in/marcos-vacaflor/" target="blanch">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://www.linkedin.com/in/marcos-vacaflor/" target="blanch">
+                <a href="https://github.com/Marcos-Vacaflor/" target="blanch">
                   <img src={navIcon2} alt="" />
                 </a>
                 <a href={cv} download={"Marcos Gabriel Vacaflor CV"} target="blanch">
